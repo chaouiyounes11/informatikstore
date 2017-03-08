@@ -1,0 +1,12 @@
+ul
+{
+border: 1px solid red;
+text-align: center;
+background-color: red;
+font-weight: bolder;
+}
+ul li
+{
+  display: inline;
+  padding : 0 5em;
+}
