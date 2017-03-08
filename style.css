@@ -72,6 +72,7 @@ article
   margin: auto;
   padding: inherit;
   padding: 1.1em;
+  margin-bottom: 1em;
   }
 
 img
@@ -93,4 +94,14 @@ img
 body
   {
   background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#cbccc8)) fixed;
+  }
+
+.ul
+  {
+  display: inline;
+  width: 800px;
+  padding: 0 5em;
+  text-align: left;
+  border: 0.2px solid black;
+  border-radius: 1px;
   }
