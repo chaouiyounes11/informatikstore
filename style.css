@@ -1,23 +1,32 @@
-header img
+.logo
   {
   width: 100%;
-  height: 300px;
-  display: inline;
-  border-radius: 11px;
-  box-shadow: 1px 1px 12px #555;
+  }
+.header
+  {
+  width: 100%;
+  height: 35em;
+  box-shadow: none;
+  margin: auto;
   }
 
-ul
+/*This is the css code for nav bar and footer*/
+ul, .ul
   {
-  border: 1px solid black;
   text-align: center;
   background-color: white;
+  font-size: 17px;
+  padding: 0.5em 0.5em;
+  margin-bottom: 1.5em;
+  box-shadow: 4px 4px 4px  4px grey;
+  background-color: rgb(228, 228, 226);
+  }
+
+ul:hover
+  {
   font-weight: bolder;
-  padding: 0.5em;
-  border-radius: 11px;
-  box-shadow: 1px 1px 12px #555;
-  background-color: navy;
-  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#cbccc8)) fixed;
+
+  box-shadow: 10px 10px 10px 6px grey;
   }
 
 ul li
@@ -30,6 +39,7 @@ ul li
 ul li a
   {
   text-decoration: none;
+    color: rgb(240,128,128);
   }
 
 ul li a:hover
@@ -48,17 +58,22 @@ h1, h2
   text-align: center;
   font-size: 3.5em;
   color: rgb(255,127,80);
-  font-style: italic;
   }
 h2
   {
   font-style: normal;
   color: grey;
+  font-weight: 100;
   }
 
-h3
+h3 a
   {
   text-align: center;
+  color: rgb(240,128,128);
+  }
+h3 a:visited
+  {
+  color: rgb(240,128,128);
   }
 
 article
@@ -69,49 +84,47 @@ article
   padding-right: 2.2em;
   border-radius: 10px;
   text-align: center;
-  margin: auto;
+  margin-left: 0.5em;
   padding: inherit;
   padding: 1.1em;
   margin-bottom: 1em;
   }
 
+.paraindex
+  {
+
+  }
+
 img
   {
-  width: 350px;
+  width: 347px;
   margin-right: 1px;
   }
 
 .speaker
   {
-  width: 400px;
+  width: 395px;
   }
 
 .tv
   {
-  width: 400px;
+  width: 395px;
   }
 
 body
   {
-  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#cbccc8)) fixed;
+  background-color: rgb(228, 228, 226);
+  margin: 0;
   }
 
-.ul
-  {
-  display: inline;
-  width: 800px;
-  padding: 0 5em;
-  text-align: left;
-  border: 0.2px solid black;
-  border-radius: 1px;
-  }
 
 /*this is the code for products.html*/
 .hproducts
   {
-  border: 0.1px outset silver;
-  border-style: none;
+  width: 100%;
+  height: 27em;
   box-shadow: none;
+  margin: auto;
   }
 
 .particle
@@ -127,34 +140,53 @@ body
   border: 0.1px outset silver;
   border-style:groove;
   width: 30%;
-  margin-left: 36.2%;
+  margin-left: 35%;
   border-style: none;
   box-shadow: none;
   }
 
-  p
+p
   {
   text-align: center;
   margin-left: 20%;
   margin-right: 20%;
   }
 
-  iframe
+iframe
   {
   margin-left: 26%;
   }
-
-  .hcontact
-    {
-    border: 0.1px outset silver;
-    border-style:groove;
-    width: 30%;
-    margin-left: 36.2%;
-    border-style: none;
-    box-shadow: none;
-    }
-
-footer
+  /*this is the code for company.html*/
+.hcontact
   {
-  margin-top: 10%;
+  width: 100%;
+  height: 45em;
+  border-style: none;
+  box-shadow: none;
   }
+
+section i
+  {
+  margin-left: 31%;
+  }
+
+.material-icons
+  {
+  color: rgb(240,128,128);
+  margin-left: 52%;
+  font-size: 14%;
+  }
+
+a.mail
+  {
+  text-align: center;
+  margin-left: 36.5em;
+  color: rgb(240,128,128);
+  }
+
+  hr
+    {
+    text-decoration: underline;
+    width: 15%;
+    font-weight: bolder;
+    }
